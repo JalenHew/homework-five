@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: gill_sans;
+  src: url(../fonts/Gill-Sans.otf);
+}
+@font-face {
+  font-family: gill_sans_bold;
+  src: url(../fonts/Gill-Sans-Bold.otf);
+}
+@font-face {
+  font-family: gill_sans_light;
+  src: url(../fonts/Gill-Sans-Light.otf);
+}
+@font-face {
+  font-family: proximanova;
+  src: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+#page-container .fullpage {
+  max-width: 980px;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 90.5px;
+}
+#page-container .fullpage .line {
+  max-width: 171px;
+  height: 2px;
+  background-color: black;
+  margin-top: -15px;
+  margin-bottom: 38px;
+}
+#page-container .fullpage p {
+  font-size: 60px;
+  font-family: proximanova;
+}
+#page-container .fullpage .about-container {
+  max-width: 980px;
+  min-height: 96px;
+}
+#page-container .fullpage .about-container .about-text p {
+  font-size: 16px;
+  font-family: gill_sans;
+}
+#page-container .fullpage .client-container {
+  max-width: 722px;
+  min-height: 429px;
+  margin-top: 90px;
+  padding-bottom: 179px;
+}
+#page-container .fullpage .client-container .line {
+  max-width: 225px;
+}
+#page-container .fullpage .client-container .miranda-brown {
+  min-height: 200px;
+  width: 100%;
+  position: relative;
+}
+#page-container .fullpage .client-container .miranda-brown p {
+  font-size: 40px;
+  font-family: proximanova;
+}
+#page-container .fullpage .client-container .miranda-brown .client-one {
+  position: relative;
+  display: flex;
+}
+#page-container .fullpage .client-container .miranda-brown .client-one .client-one-img {
+  width: 260px;
+  height: 150px;
+  background-image: url(../images/about-client-01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#page-container .fullpage .client-container .miranda-brown .client-one .client-one-text {
+  max-width: 385px;
+  margin-left: 21px;
+  font-family: gill_sans;
+}
+#page-container .fullpage .client-container .miranda-brown .client-one .client-name {
+  max-width: 176px;
+  font-size: 20px;
+  position: absolute;
+  right: 0px;
+  bottom: 0%;
+  color: #79addc;
+  font-family: proximanova;
+}
+#page-container .fullpage .client-container .john-wes {
+  margin-top: 37px;
+  min-height: 200px;
+  width: 100%;
+}
+#page-container .fullpage .client-container .john-wes .client-two {
+  position: relative;
+  display: flex;
+}
+#page-container .fullpage .client-container .john-wes .client-two .client-two-img {
+  width: 260px;
+  height: 150px;
+  background-color: black;
+  background-image: url(../images/about-client-02.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#page-container .fullpage .client-container .john-wes .client-two .client-two-text {
+  max-width: 385px;
+  margin-left: 21px;
+  font-family: gill_sans;
+}
+#page-container .fullpage .client-container .john-wes .client-two .client-name {
+  max-width: 176px;
+  font-size: 20px;
+  position: absolute;
+  right: 0px;
+  bottom: 0%;
+  color: #79addc;
+  font-family: proximanova;
+}
+
+nav {
+  max-width: 980px;
+  height: 62.5px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
+nav .links a {
+  color: black;
+  text-decoration: none;
+  font-family: gill_sans;
+  width: 100%;
+}
+nav .links span {
+  color: #79addc;
+  margin: 0 20px;
+}
+nav .logo {
+  width: 9.25%;
+  height: 40px;
+  background-image: url(../images/logo-black.png);
+}
+
+#footer {
+  height: 100px;
+  max-width: 1280px;
+  background-color: #79addc;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#footer .logo {
+  width: 7.25%;
+  height: 40px;
+  background-image: url(../images/logo-white.png);
+  color: #ffff;
+}
+#footer .copyright {
+  width: 20%;
+  height: 15px;
+  color: white;
+  font-size: 12px;
+  margin-left: 10%;
+  font-family: gill_sans;
+}
+#footer .media {
+  width: 109.38px;
+  height: 22.46px;
+  color: white;
+  font-size: 22.46px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/*# sourceMappingURL=styles.css.map */
